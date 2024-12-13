@@ -1,6 +1,6 @@
 # Proyecto de Bases de Datos - IAW
 
-Este proyecto corresponde a la asignatura de **Ingeniería de Aplicaciones Web (IAW)**, y tiene como objetivo la implementación de una base de datos utilizando **MariaDB**, con acceso mediante **PHP** y **PDO** (PHP Data Objects) para la gestión segura y eficiente de los datos.
+Este proyecto corresponde a la asignatura de **Implementación de Aplicaciones Web (IAW)**, y tiene como objetivo la implementación de una base de datos utilizando **MariaDB**, con acceso mediante **PHP** y **PDO** (PHP Data Objects) para la gestión segura y eficiente de los datos.
 
 ## Tecnologías utilizadas
 
@@ -27,11 +27,4 @@ Para ejecutar este proyecto, necesitas tener instalado lo siguiente:
 - **Servidor Web** (por ejemplo, Apache o Nginx).
 - **PDO**: Debe estar habilitado en la configuración de PHP.
 
-## Instalación
 
-### Paso 1: Configuración de la base de datos
-
-1. Clona o descarga este repositorio.
-2. Accede a tu cliente de MariaDB y crea una nueva base de datos con el siguiente comando:
-   ```sql
-   CREATE DATABASE nombre_base_de_datos;
