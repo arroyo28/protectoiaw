@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Tabla</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1>Crear una nueva tabla en la base de datos</h1>
+    </header>
+
+    <main>
+        <form method="POST" action="crearTablas.php">
+            <label for="table_name">Nombre de la tabla:</label>
+            <input type="text" name="table_name" id="table_name" required>
+            <br><br>
+
+            <button type="submit">Crear</button>
+          
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Gestión de Tablas</p>
+    </footer>
+</body>
+</html>

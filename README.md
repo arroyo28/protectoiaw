@@ -35,4 +35,3 @@ Para ejecutar este proyecto, necesitas tener instalado lo siguiente:
 2. Accede a tu cliente de MariaDB y crea una nueva base de datos con el siguiente comando:
    ```sql
    CREATE DATABASE nombre_base_de_datos;
-
