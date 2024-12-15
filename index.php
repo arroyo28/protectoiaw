@@ -1,4 +1,9 @@
 <?php
+session_start();
+if (!isset($_SESSION['user_logged_in']) || $_SESSION['user_logged_in'] !== true) {
+    header('Location: login-1.php'); // Redirige si no está autenticado
+    exit;
+}
 // Iniciar la sesión
 session_start();
 
