@@ -1,4 +1,9 @@
 <?php
+session_start();
+if (!isset($_SESSION['user_logged_in']) || $_SESSION['user_logged_in'] !== true) {
+    header('Location: login-1.php'); // Redirige si no está autenticado
+    exit;
+}
 // Configuración de la base de datos
 $host = "192.168.6.12";
 $dbname = "db_iaw_aaf";
